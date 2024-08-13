@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-One paper, AST-GCN, has been accepted to TCSVT 2023.  🤩
+One paper, AST-GCN, has been accepted to **TCSVT 2024**.  🤩
 

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper, STA-GCN, has been accepted to ICME 2023. 🎉🎉🎉
+One paper, STA-GCN, has been accepted to **ICME 2023**. 🎉🎉🎉
