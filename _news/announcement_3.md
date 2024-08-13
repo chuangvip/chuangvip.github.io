@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-A new paper, UniEmoX, has been submitted to TIP.​ :sparkles: :smile:
+A new paper, UniEmoX, has been submitted to **TIP**.​ :sparkles: :smile:
 
