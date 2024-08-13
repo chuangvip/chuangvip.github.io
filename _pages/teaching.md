@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /service/
-title: teaching
+title: Service
 description: 
 nav: true
 nav_order: 6
 ---
 
-- Reviewer: TCSVT.
+- Reviewer: IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).
