@@ -3,112 +3,61 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
 
-@book{einstein1956investigations,
+
+
+
+
+@ARTICLE{10354012,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
+  author={Chen, Chuang and Sun, Xiao and Tu, Zhengzheng and Wang, Meng},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={AST-GCN: Augmented Spatial Temporal Graph Convolutional Neural Network for Gait Emotion Recognition}, 
+  year={2024},
+  volume={34},
+  number={6},
+  pages={4581-4595},
+  doi={10.1109/TCSVT.2023.3341728},
+  abstract={
+  Skeleton-based methods have recently achieved good performance in deep learning-based gait emotion recognition (DL-GER). However, the current methods have two drawbacks that limit the ability to learn discriminative emotional features from gait. First, these methods do not exclude the effect of the subject’s walking orientation on emotion classification. Second, they do not sufficiently learn the implicit connections between the joints during human walking. In this paper, an augmented spatial-temporal graph convolutional neural network (AST-GCN) is introduced to solve these two problems. The interframe shift encoding (ISE) module acquires interframe shifts of joints to make the network sensitive to changes in emotion-related joint movements regardless of the subject’s walking orientation. A multichannel implicit connection inference method learns more implicit connection relations related to emotions. Notably, we unify current skeleton-based methods into a common framework that validates the most powerful feature representation capability of our AST-GCN from a theoretical perspective. In addition, we extend the skeleton-based gait dataset using posture estimation software. Experiments demonstrate that our AST-GCN outperforms state-of-the-art methods on three datasets on two tasks.
+  },
+  pdf={https://ieeexplore.ieee.org/document/10354012},
+  abbr={TCSVT},
   preview={brownian-motion.gif}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@INPROCEEDINGS{10219743,
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  author={Chen, Chuang and Sun, Xiao},
+  booktitle={2023 IEEE International Conference on Multimedia and Expo (ICME)}, 
+  title={STA-GCN:Spatial Temporal Adaptive Graph Convolutional Network for Gait Emotion Recognition}, 
+  year={2023},
+  pages={1385-1390},
+  doi={10.1109/ICME55011.2023.00240},
+  pdf={https://ieeexplore.ieee.org/document/10219743},
+  abstract={
+  Graph Convolutional Neural Networks (GCNs) recently have been widely used in Gait Emotion Recognition (GER). However, the existing GCNs-based GER methods have two drawbacks that limit the ability to learn discriminative feature. In spatial modeling, context-sensitive affective feature of joint is under-extracted due to the neglect of implicit connection. In temporal modeling, multi-scale temporal feature of joint motion is under-extracted or aggregated rigidly. In this paper, we propose a novel Spatial-Temporal Adaptive Graph Convolutional Network (STA-GCN) where two main modules are introduced, respectively. Spatial Feature Learning Module (SFLM) infers context-sensitive joint implicit connection and adaptively aggregates spatial feature mined from implicit and explicit connection. Temporal Feature Learning Module (TFLM) extracts and adaptively aggregates multi-scale temporal feature of joint motion. It is worth mentioning that we first pre-train the model using hand-crafted affective feature and counterpart gait. Experimental results demonstrate our STA-GCN outperforms state-of-the-art methods in two tasks.
+  },
+  abbr={ICME},
+  preview={brownian-motion.gif}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true}
+
+
+@misc{shu2023mutilmodalfeatureextractionattentionbased, 
+      bibtex_show={true},
+      title={Multimodal Feature Extraction and Attention-based Fusion for Emotion Estimation in Videos}, 
+      author={Tao Shu and Xinke Wang and Ruotong Wang and Chuang Chen and Yixin Zhang and Xiao Sun},
+      year={2023},
+      eprint={2303.10421},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      pdf={https://arxiv.org/abs/2303.10421}, 
+      abstract={The continuous improvement of human-computer interaction technology makes it possible to compute emotions. In this paper, we introduce our submission to the CVPR 2023 Competition on Affective Behavior Analysis in-the-wild (ABAW). Sentiment analysis in human-computer interaction should, as far as possible Start with multiple dimensions, fill in the single imperfect emotion channel, and finally determine the emotion tendency by fitting multiple results. Therefore, We exploited multimodal features extracted from video of different lengths from the competition dataset, including audio, pose and images. Well-informed emotion representations drive us to propose a Attention-based multimodal framework for emotion estimation. Our system achieves the performance of 0.361 on the validation dataset. The code is available at [this https URL].},
+      abbr={arXiv},
+      preview={brownian-motion.gif}
+
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
