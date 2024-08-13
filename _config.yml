@@ -313,8 +313,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Chuang]
-  first_name: [Chen]
+  last_name: [Chen]
+  first_name: [Chuang]
 
   style: apa
   locale: en
