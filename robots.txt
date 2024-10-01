@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://chuangvip.github.io/sitemap.xml
